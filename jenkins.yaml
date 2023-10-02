@@ -12,7 +12,7 @@ metadata:
  name: jenkins-secret
  namespace: default
  annotations:
-   kubernetes.io/service-account.name: “jenkins”
+   kubernetes.io/service-account.name: jenkins
 ---
 kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
