@@ -25,6 +25,9 @@ RUN jenkins-plugin-cli \
     kubernetes-cli \
     github-branch-source 
 
+RUN apt update && apt install -y make
+# sudo apt-get install build-essential
+
 # install Maven, Java, Docker, AWS
 # RUN apk add --no-cache maven \
 #     openjdk8 \
